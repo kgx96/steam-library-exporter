@@ -1,0 +1,22 @@
+# SAFEGUARD: this repository is binary-only. Source code must never be committed.
+# The exe is published on the Releases page, not in the repository.
+
+# Go source and build files
+*.go
+go.mod
+go.sum
+*.bat
+src/
+web/
+dist/
+
+# Binaries (upload to Releases instead)
+*.exe
+*.zip
+
+# Local data that could contain personal info or keys
+config.json
+owned_games*
+*.csv
+*.json
+.env
